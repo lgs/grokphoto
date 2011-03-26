@@ -26,6 +26,7 @@ gem 'dynamic_form'
 gem 'more'
 
 group :development, :test do
+  gem "test-unit"
   gem "mocha"
   gem "rspec-rails", ">= 2.0.0.beta.22" 
   gem "factory_girl_rails"

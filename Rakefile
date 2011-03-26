@@ -4,6 +4,6 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Lauranovara::Application.load_tasks
+Grokphoto::Application.load_tasks
 
 

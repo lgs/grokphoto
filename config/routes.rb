@@ -1,4 +1,4 @@
-Lauranovara::Application.routes.draw do
+Grokphoto::Application.routes.draw do
 
   # root
   match '/' => 'home#index'

@@ -35,18 +35,17 @@ Installation script coming soon! Follow these instructions for now:
 
     $ git clone git://github.com/rapind/grokphoto.git
     $ cd grokphoto
-    $ cp config/database.yml.sample config.database.yml
+    $ cp config/database.yml.sample config/database.yml
     $ cp config/initializers/grokphoto.rb.sample config/initializers/grokphoto.rb
-    $ cp config/deploy.rb.sample deploy.rb
+    $ cp config/deploy.rb.sample config/deploy.rb
 
 Then edit these three files with your own settings. Everything you need to change is marked with a "TODO":
 
-    $ sudo gem install less  
-    $ sudo rake gems:install
+    $ bundle install
     $ rake db:create
     $ rake db:migrate
     $ rake db:seed
-    $ script/server
+    $ rails s
 
 At this point you should have a working site with some basic sample data that you can configure with your own data.
 
