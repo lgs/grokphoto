@@ -1,0 +1,14 @@
+      t.integer :position, :null => false, :default => 1
+./20100220172209_create_quotes.rb
+      t.integer :position, :null => false, :default => 1
+./20100115230942_create_pages.rb
+      t.integer :position, :null => false, :default => 1
+./20100305023722_create_products.rb
+      t.integer :position, :null => false, :default => 1
+./20100117182247_create_gallery_photos.rb
+      t.integer :position, :null => false, :default => 1
+./20100305023637_create_packages.rb
+      t.integer :position, :null => false, :default => 1
+./20100305023814_create_product_sizes.rb
+      t.integer :position, :null => false, :default => 1
+./20100112205703_create_galleries.rb

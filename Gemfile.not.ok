@@ -3,9 +3,12 @@
 source 'http://rubygems.org'
 #source 'http://gemcutter.org'
 
-gem 'rails', '3.0.0'
+gem 'rails', '3.0.7'
 gem 'mysql'
 gem 'sqlite3-ruby', :require => 'sqlite3'
+
+# rake-0.9.0 breack rails 3
+gem 'rake', '0.8.7'
 
 gem 'thin'
 gem 'rdiscount'
@@ -26,8 +29,9 @@ gem 'dynamic_form'
 gem 'more'
 
 group :development, :test do
+  gem "test-unit", "2.2.0"
   gem "mocha"
-  gem "rspec-rails", ">= 2.0.0.beta.22" 
+  gem "rspec-rails"
   gem "factory_girl_rails"
 end
 
