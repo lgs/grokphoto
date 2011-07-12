@@ -3,8 +3,6 @@ Grokphoto
 
 This master branch is for Rails 3.0.0 only, [ported by Luca G. Soave](http://github.com/lgs). Grokphoto, is a professional photographer's client and booking management solution, as well as a gallery / portfolio where they can showcase for their work.
 
-### [Watch the Video](http://grokphoto.org/introduction.html) ###
-
 There's a live demo available at:
 
 * [http://www.grokphoto.org](http://www.grokphoto.org)
